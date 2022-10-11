@@ -26,7 +26,7 @@ function myCreateFunction() {
   var cell1 = row.insertCell(0);
   var cell2 = row.insertCell(1);
   var cell3 = row.insertCell(-1);
-  cell1.innerHTML = "NEW CELL1";
-  cell2.innerHTML = "NEW CELL2";
-  cell3.innerHTML = "NEW CELL 3";
+  cell1.innerHTML = Number(document.getElementById('formGroupExampleInput').value);
+  cell2.innerHTML = Number(document.getElementById('formGroupExampleInput2').value);
+  cell3.innerHTML = Number(document.getElementById('formGroupExampleInput3').value);
 }
