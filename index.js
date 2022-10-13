@@ -3,8 +3,6 @@ var avgTotal = 0;
 function myfunc() {
   var avg=(Number(document.getElementById('formGroupExampleInput').value)+4*Number(document.getElementById('formGroupExampleInput2').value)+Number(document.getElementById('formGroupExampleInput3').value))/6;
   avgTotal=avgTotal+avg;
-  document.getElementById('avgcost').innerHTML = avg;
-  return avg;
 }
 
 function printing() {
